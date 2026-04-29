@@ -5,7 +5,7 @@ Churn Prediction API is a high-performance, production-ready REST service built 
 pip install -r requirements.txt
 
 ## Run
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 
 ### Parameters
 - **cltv(int)** = Customer Lifetime Value
