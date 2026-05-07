@@ -8,6 +8,8 @@ git clone <repository_url>
 
 cd customer-churn-predictor
 
+pip install -r requirements.txt
+
 pip install -e .
 ```
 ## Testing
