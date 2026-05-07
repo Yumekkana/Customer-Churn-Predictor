@@ -1,10 +1,32 @@
 # Customer Churn Predictor
 Churn Prediction API is a high-performance, production-ready REST service built with FastAPI that predicts customer churn probability using machine learning. By leveraging a pre-trained model and standardized feature scaling, the API provides real-time binary predictions (Churn/No Churn). Designed for scalability and ease of integration, it enables businesses to proactively retain at-risk customers through accurate, data-driven insights.
 
-## Install dependencies
-pip install -r requirements.txt
+## Installation
 
-## Run
+```bash
+git clone <repository_url>
+
+cd customer-churn-predictor
+
+pip install -e .
+```
+## Testing
+
+This project uses `pytest` and FastAPI’s `TestClient` for API testing.
+
+Install test dependencies:
+
+## Test run
+
+```bash
+pip install pytest
+
+cd customer-churn-predictor
+
+pytest tests/test.py
+```
+
+## App Run
 uvicorn app.main:app --reload
 
 ### Parameters

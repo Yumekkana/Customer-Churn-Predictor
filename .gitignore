@@ -30,19 +30,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# ==========================================
-# Machine Learning & Data Science
-# ==========================================
-# Model files (Keep these out if they are large or sensitive, 
-# though you might want to track small ones. Usually, track code, not models.)
-*.pkl
-*.joblib
-*.h5
-*.pth
-*.pt
-*.onnx
-*.pb
-
 
 # ==========================================
 # IDE & Editors
