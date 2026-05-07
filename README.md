@@ -1,5 +1,5 @@
 # Customer Churn Predictor
-Churn Prediction API is a high-performance, production-ready REST service built with FastAPI that predicts customer churn probability using machine learning. By leveraging a pre-trained model and standardized feature scaling, the API provides real-time binary predictions (Churn/No Churn) with sub-50ms latency. Designed for scalability and ease of integration, it enables businesses to proactively retain at-risk customers through accurate, data-driven insights.
+Churn Prediction API is a high-performance, production-ready REST service built with FastAPI that predicts customer churn probability using machine learning. By leveraging a pre-trained model and standardized feature scaling, the API provides real-time binary predictions (Churn/No Churn). Designed for scalability and ease of integration, it enables businesses to proactively retain at-risk customers through accurate, data-driven insights.
 
 ## Install dependencies
 pip install -r requirements.txt
