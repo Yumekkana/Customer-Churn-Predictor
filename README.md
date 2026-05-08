@@ -29,7 +29,9 @@ pytest tests/test.py
 ```
 
 ## App Run
+```bash
 uvicorn app.main:app --reload
+```
 
 ### Parameters
 - **cltv(int)** = Customer Lifetime Value
